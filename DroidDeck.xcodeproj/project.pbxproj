@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2081541C3C0A61FE198EE98B /* DeviceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CDD9E6FB929A20B090871 /* DeviceSettings.swift */; };
+		32A1487B6555229AB664E6A3 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250D7CA93DFC2EA39D5C910 /* AppModel.swift */; };
+		352027697B7A722B535132E8 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BFC4C33ED18015547A8205 /* DevicesView.swift */; };
+		38418B00BA1602C885E0EFD7 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBCC08EEEF16913BAE5AAED /* Onboarding.swift */; };
+		472574629348CD378AF59A44 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673F29A3A92BDC8FE83AA83 /* RootView.swift */; };
+		4A66410258CCCFC18A9E9096 /* DroidDeckKit in Frameworks */ = {isa = PBXBuildFile; productRef = 90E95E87CAED10C63BADC931 /* DroidDeckKit */; };
+		71B5CEF6CC4E1F9C80CE8723 /* DroidDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB1616B1EA96E6577A11FD /* DroidDeckApp.swift */; };
+		7CFA10D263310295D5BF982D /* InstallAPKSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE3F07EDE6BFF800E4B457 /* InstallAPKSheet.swift */; };
+		87BD412F1C2DDA3CAF78706F /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372BCF07DF31F9A80C46F13 /* Design.swift */; };
+		B3C2A2D20588243C2A62FD29 /* DeviceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BEE8311E861F1D3A41483 /* DeviceWindow.swift */; };
+		B702C31854B9D53BB786575B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC87E19ADE35812458E296E /* Settings.swift */; };
+		B8D8B019C0DD8AD64BD081CB /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0FDA4A69928585AD7E5FFF /* Tags.swift */; };
+		E2FED92500DAB146C9EF0D66 /* DeviceStudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4C7002F66C68B8C5D694E /* DeviceStudio.swift */; };
+		EA7A58B2E6BB51E627939AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878C7D4F225706EB9FE2DF0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0250D7CA93DFC2EA39D5C910 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		29A4C7002F66C68B8C5D694E /* DeviceStudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStudio.swift; sourceTree = "<group>"; };
+		5FBCC08EEEF16913BAE5AAED /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		62BFC4C33ED18015547A8205 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		710AABD1F550C92BFCF3B3D6 /* DroidDeckKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DroidDeckKit; path = Packages/DroidDeckKit; sourceTree = SOURCE_ROOT; };
+		7878C7D4F225706EB9FE2DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864CDD9E6FB929A20B090871 /* DeviceSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettings.swift; sourceTree = "<group>"; };
+		9673F29A3A92BDC8FE83AA83 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9E0FDA4A69928585AD7E5FFF /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		9ECE3F07EDE6BFF800E4B457 /* InstallAPKSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallAPKSheet.swift; sourceTree = "<group>"; };
+		BC1BEE8311E861F1D3A41483 /* DeviceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceWindow.swift; sourceTree = "<group>"; };
+		BE1DDB44A9C2AB88E1D9E589 /* DroidDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroidDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC87E19ADE35812458E296E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CFFB1616B1EA96E6577A11FD /* DroidDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidDeckApp.swift; sourceTree = "<group>"; };
+		D372BCF07DF31F9A80C46F13 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDC01A2EDDD46CC4B7558F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A66410258CCCFC18A9E9096 /* DroidDeckKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28ED3157BD65B28E0EA0E722 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				710AABD1F550C92BFCF3B3D6 /* DroidDeckKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		889B525DB8C292E19103A72C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0250D7CA93DFC2EA39D5C910 /* AppModel.swift */,
+				D372BCF07DF31F9A80C46F13 /* Design.swift */,
+				864CDD9E6FB929A20B090871 /* DeviceSettings.swift */,
+				29A4C7002F66C68B8C5D694E /* DeviceStudio.swift */,
+				62BFC4C33ED18015547A8205 /* DevicesView.swift */,
+				BC1BEE8311E861F1D3A41483 /* DeviceWindow.swift */,
+				CFFB1616B1EA96E6577A11FD /* DroidDeckApp.swift */,
+				9ECE3F07EDE6BFF800E4B457 /* InstallAPKSheet.swift */,
+				5FBCC08EEEF16913BAE5AAED /* Onboarding.swift */,
+				9673F29A3A92BDC8FE83AA83 /* RootView.swift */,
+				CBC87E19ADE35812458E296E /* Settings.swift */,
+				9E0FDA4A69928585AD7E5FFF /* Tags.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B9C5CA9EDE3995204390BF08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7878C7D4F225706EB9FE2DF0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA9B5BB5B6D0582D77D90E5D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B9C5CA9EDE3995204390BF08 /* Resources */,
+				889B525DB8C292E19103A72C /* Sources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD84F795D931A156D6088A8A = {
+			isa = PBXGroup;
+			children = (
+				BA9B5BB5B6D0582D77D90E5D /* App */,
+				28ED3157BD65B28E0EA0E722 /* Packages */,
+				FFC1CD5DDB2FFF01D91F45A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC1CD5DDB2FFF01D91F45A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1DDB44A9C2AB88E1D9E589 /* DroidDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F39B715013FAF801DB3AA7C /* DroidDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE407406F5A45B5AF7FE855 /* Build configuration list for PBXNativeTarget "DroidDeck" */;
+			buildPhases = (
+				23FC9F144B750D57EB9ECBFE /* Sources */,
+				C4DAC38DF19005FE3A0E5A71 /* Resources */,
+				FEDC01A2EDDD46CC4B7558F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroidDeck;
+			packageProductDependencies = (
+				90E95E87CAED10C63BADC931 /* DroidDeckKit */,
+			);
+			productName = DroidDeck;
+			productReference = BE1DDB44A9C2AB88E1D9E589 /* DroidDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415AB059DF97AA8B6B619C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F39B715013FAF801DB3AA7C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0A4ACFF6826678C9AF1F0ACD /* Build configuration list for PBXProject "DroidDeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BD84F795D931A156D6088A8A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A25724D7B12D8A9EAA692723 /* XCLocalSwiftPackageReference "Packages/DroidDeckKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFC1CD5DDB2FFF01D91F45A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F39B715013FAF801DB3AA7C /* DroidDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DAC38DF19005FE3A0E5A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7A58B2E6BB51E627939AF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FC9F144B750D57EB9ECBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A1487B6555229AB664E6A3 /* AppModel.swift in Sources */,
+				87BD412F1C2DDA3CAF78706F /* Design.swift in Sources */,
+				2081541C3C0A61FE198EE98B /* DeviceSettings.swift in Sources */,
+				E2FED92500DAB146C9EF0D66 /* DeviceStudio.swift in Sources */,
+				B3C2A2D20588243C2A62FD29 /* DeviceWindow.swift in Sources */,
+				352027697B7A722B535132E8 /* DevicesView.swift in Sources */,
+				71B5CEF6CC4E1F9C80CE8723 /* DroidDeckApp.swift in Sources */,
+				7CFA10D263310295D5BF982D /* InstallAPKSheet.swift in Sources */,
+				38418B00BA1602C885E0EFD7 /* Onboarding.swift in Sources */,
+				472574629348CD378AF59A44 /* RootView.swift in Sources */,
+				B702C31854B9D53BB786575B /* Settings.swift in Sources */,
+				B8D8B019C0DD8AD64BD081CB /* Tags.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		274E80F702F61F883684AAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/DroidDeck.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.droiddeck.DroidDeck;
+				PRODUCT_NAME = DroidDeck;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2992447B2CC111B22868B97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		2B982F4A8DEE8CD341E5DB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/DroidDeck.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = app.droiddeck.DroidDeck;
+				PRODUCT_NAME = DroidDeck;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E953F66A67DC4EC3E19A3E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4ACFF6826678C9AF1F0ACD /* Build configuration list for PBXProject "DroidDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E953F66A67DC4EC3E19A3E50 /* Debug */,
+				2992447B2CC111B22868B97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EE407406F5A45B5AF7FE855 /* Build configuration list for PBXNativeTarget "DroidDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274E80F702F61F883684AAFA /* Debug */,
+				2B982F4A8DEE8CD341E5DB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A25724D7B12D8A9EAA692723 /* XCLocalSwiftPackageReference "Packages/DroidDeckKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DroidDeckKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90E95E87CAED10C63BADC931 /* DroidDeckKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DroidDeckKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 415AB059DF97AA8B6B619C36 /* Project object */;
+}
